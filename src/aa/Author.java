@@ -9,9 +9,13 @@ public class Author {
 
     public void printName() {
 
+
         System.out.println("Author Name: " + name);
  
         System.out.println("Author: " + name.toUpperCase());
+ 
+
+        System.out.println("Author Name Length: " + name.length());
  
     }
 }
